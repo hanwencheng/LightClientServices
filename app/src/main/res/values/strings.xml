@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">LightClientServices</string>
+    <string name="startButton">Start Service</string>
+    <string name="downloadButton">Download Binary</string>
+    <string name="intro">Light Client Service</string>
 </resources>

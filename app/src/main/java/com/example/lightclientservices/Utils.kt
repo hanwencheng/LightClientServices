@@ -7,7 +7,7 @@ import java.io.File
 const val TAG = "MainActivity";
 
 const val binarySubPath = "substrate"
-const val dataSubPath = "data"
+const val dataSubPath = "substrateData"
 const val downloadSubPath = "binary/substrate"
 
 class Utils {

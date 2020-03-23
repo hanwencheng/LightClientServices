@@ -20,9 +20,9 @@ class LightClientServices : IntentService("LightClientServices") {
             val dir =  File("$externalDirPath/$dataSubPath");
             dir.mkdir()
             Utils.setPermissions("$externalDirPath/$dataSubPath")
-//            val pb =
-//                ProcessBuilder(".$currentDir/$binarySubPath", "--light", "-d", "$externalDirPath/$dataSubPath")
-            val pb = ProcessBuilder("ls", "-l", "$externalDirPath/$dataSubPath/chains/flamingfir6/db")
+            val pb =
+                ProcessBuilder(".$currentDir/$binarySubPath", "--light", "-d", "$externalDirPath/$dataSubPath")
+//            val pb = ProcessBuilder("ls", "-l", "$externalDirPath/$dataSubPath/chains/flamingfir6/db")
             val process = pb.start()
 
             // Read Ouput
